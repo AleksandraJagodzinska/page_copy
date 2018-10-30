@@ -9,13 +9,14 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+        <link rel="shortcut icon" href="title icon.PNG">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         
     </head>
     <body>
         <div class="container">
-            <div class="row">
+            <div class="row mb-5 mt-3">
                 <div class="col-sm">
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
@@ -26,7 +27,7 @@
                         </li>
                         <li class="nav-item">
                                       
-                                <a tabindex="0" class="btn btn-lg" role="button" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"><i class="fas fa-th"></i></a>
+                                <a tabindex="0" class="btn btn-black-50" role="button" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?"><i class="fas fa-th"></i></a>
                         </li>
                         <li class="nav-item">
                           <a class="btn btn-primary" href="https://accounts.google.com/ServiceLogin?hl=pl&passive=true&continue=https://www.google.com/" role="button">Zaloguj się</a>
@@ -41,13 +42,15 @@
               </div>
               <div class="row">
                 <div class="col-sm">
-                  <img src="logo_google.png" alt="">
+                  <img src="logo_google.png" alt="Logo of Google" class="img-fluid">
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+
+                        <input type="text" class="form-control p-3" placeholder="" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+
                         <div class="input-group-append" id="button-addon4">
                           <button class="btn btn-outline-secondary" type="button"><i class="far fa-keyboard"></i></button>
                           <button class="btn btn-outline-secondary" type="button"> <i class="fas fa-microphone"></i></button>
@@ -57,9 +60,9 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-sm">
-                    <button type="button" class="btn btn-secondary">Szukaj w Google</button>
-                    <button type="button" class="btn btn-secondary">Szczęśliwy traf</button>
+                <div class="mt-4 col-sm">
+                    <button type="button" class="btn btn-black-50">Szukaj w Google</button>
+                    <button type="button" class="btn btn-black-50">Szczęśliwy traf</button>
                 </div>
               </div>
               <div class="row">
@@ -72,20 +75,26 @@
                 <div></div>
                 </div>
               </div>    
-              <div class="row">
-                <div class="col-sm">
-                  Footer Polska
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm">
-                  Footer reszta guziki cz 1
-                </div>
-                <div class="col-sm">
-                    Footer reszta guziki z 2
-                  </div>
-              </div>
-          </div>
+              
+          <footer class="w-auto fixed-bottom">
+                <div class="row">
+                        <div class="col-sm text-muted ml-3">
+                          <p>Polska</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                            <div class="col-sm">
+                                    <a class="btn btn-link" href="https://www.google.com/intl/pl_pl/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" role="button">Reklamuj się</a>
+                                    <a class="btn btn-link" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" role="button">Dla firm</a>
+                                    <a class="btn btn-link" href="https://www.google.com/intl/pl_pl/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1" role="button">O nas</a>
+                            </div>
+                            <div class="col-sm">
+                                    <a class="btn btn-link" href="https://www.google.com/intl/pl_pl/policies/privacy/?fg=1" role="button">Prywatność</a>
+                                    <a class="btn btn-link" href="https://www.google.com/intl/pl_pl/policies/terms/?fg=1" role="button">Warunki</a>
+                                    <a class="btn btn-link" href="https://mail.google.com/mail/?tab=wm" role="button">Ustawienia</a>
+                                  </div>
+                          </div>  
+          </footer>
         
           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -97,6 +106,7 @@
             $('.popover-dismiss').popover({
                 trigger: 'focus'
             })
+          
           </script>  
     </body>
 </html>
